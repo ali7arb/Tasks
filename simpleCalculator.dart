@@ -13,8 +13,10 @@ void main() {
   } else if (opr == "/") {
     print("result is : ${num1 / num2}");
   } else if (opr == "+") {
-    print("result is : ${num1 * num2}");
+    print("result is : ${num1 + num2}");
+  } else if (opr == "-") {
+    print("result is : ${num1 - num2}");
   } else {
-    print("result is : ${num1 * num2}");
+    print("Invalid Operation !!!! ");
   }
 }
