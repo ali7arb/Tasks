@@ -1,5 +1,4 @@
 import 'empClassEnc.dart';
-//This file for Encapsulation
 
 void main() {
   Employee emp = Employee();
